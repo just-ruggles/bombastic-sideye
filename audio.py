@@ -7,7 +7,7 @@ from gtts import gTTS
 from PIL import Image
 
 st.title("Interfaces Multimodales.")
-image = Image.open("audio.png")
+image = Image.open("fnsm.webp")
 
 st.image(image, width=200)
 
