@@ -6,7 +6,7 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-st.title("Interfaces Multimodales.")
+st.title("Friendly Neighbourhood Spider-man App.")
 image = Image.open("fnsm.webp")
 
 st.image(image, width=200)
@@ -18,11 +18,11 @@ except:
     pass
 
 st.subheader("Texto a audio.")
-st.write('Las interfaces de texto a audio son fundamentales en las interfaces multimodales ya que permiten '  
-         'una comunicación más accesible y natural, facilitando la inclusión de personas con discapacidades ' 
-         ' visuales y permitiendo la interacción en situaciones donde no es posible leer texto. Estas interfaces '  
-         ' también impulsan tecnologías emergentes como los asistentes de voz inteligentes, haciendo que la tecnología ' 
-         ' sea más accesible e intuitiva para todos los usuarios')
+st.write('Las interfaces de texto a audio son fundamentales para que la aplicación FNSM funcione perfectamente, '  
+         ' pues a veces con todo el ajetreo de luchar contra el crimen y balancearse por las ciudades en telarañas ' 
+         ' hace que sea bastante difícil leer la letra en el teléfono. '  
+         ' La verdad es que Peter está un poquito muy ciego, y no le da para leer las cosas. ¿Por qué no pruebas a ' 
+         ' a escribir algo abajo?')
            
 
 text = st.text_input("Ingrese el texto.")
