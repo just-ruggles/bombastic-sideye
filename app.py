@@ -13,7 +13,7 @@ st.image(image, caption="MILES-MEWRALES")
 texto = st.text_input("Escribe algo", "Miles Morales es el mejor Spider-man")
 st.write("Texto ingresado:", texto)
 
-st.subheader("<h1 style='color: red;'>Ahora usemos 2 columnas</h3>", unsafe_allow_html=True")
+st.subheader("<h1 style='color: red;'>Ahora usemos 2 columnas</h2>", unsafe_allow_html=True")
 col1, col2 = st.columns(2)
 with col1:
   st.subheader("<h2 style='color: blue;'>Esta es la primera columna")
