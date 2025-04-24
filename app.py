@@ -3,7 +3,7 @@ from PIL import Image
 
 st.markdown("<h1 style='color: red;'>Mi primera app (Peter Parker estaría orgulloso)</h1>", unsafe_allow_html=True)
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales. O para salvar al mundo, FNSM app en camino.")
+st.markdown("<h2 style='color: blue;'>En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales. O para salvar al mundo, FNSM app en camino.</h2>", unsafe_allow_html=True)
 st.write("facilmente puedo realizar backend y frontend:")
 image = Image.open("spider-cat.jpg")
 
