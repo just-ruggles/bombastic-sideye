@@ -13,10 +13,10 @@ st.image(image, caption="MILES-MEWRALES")
 texto = st.text_input("Escribe algo", "Miles Morales es el mejor Spider-man")
 st.write("Texto ingresado:", texto)
 
-st.subheader("<h1 style='color: red;'>Ahora usemos 2 columnas</h2>", unsafe_allow_html=True")
+st.subheader("Ahora usemos 2 columnas")
 col1, col2 = st.columns(2)
 with col1:
-  st.subheader("<h2 style='color: blue;'>Esta es la primera columna")
+  st.subheader("Esta es la primera columna")
   st.write("Spider-man es un amigo y vecino de la gente :)")
   resp = st.checkbox("Estoy de acuerdo")
   resp_2 = st.checkbox("Por supuesto que sí")
