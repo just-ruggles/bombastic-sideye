@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Mi primera app (Peter Parker estaría orgulloso)")
+st.markdown("<h1 style='color: red;'>Mi primera app (Peter Parker estaría orgulloso)</h1>", unsafe_allow_html=True)
 
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales. O para salvar al mundo, FNSM app en camino.")
 st.write("facilmente puedo realizar backend y frontend:")
